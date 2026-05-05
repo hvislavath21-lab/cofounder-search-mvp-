@@ -1,0 +1,26 @@
+# Root
+.DS_Store
+*.log
+node_modules/
+
+# Environment files — NEVER commit these
+.env
+.env.local
+.env.production
+
+# Build output
+client/build/
+client/.cache/
+
+# Dependency directories
+server/node_modules/
+client/node_modules/  
+
+# Coverage & test output
+coverage/
+*.lcov
+
+# IDE
+.vscode/
+.idea/
+*.swp
